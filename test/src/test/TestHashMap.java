@@ -11,7 +11,6 @@ public class TestHashMap {
 		maps.put("王五", 50);
 		maps.put("李四", 30);
 		maps.put("孙六", 60);
-		maps.put("钱七", 70);
 		for (Entry<String, Object> entry: maps.entrySet()) {
 			System.out.println(entry.getKey()+"==++000==="+entry.getValue());
 			
